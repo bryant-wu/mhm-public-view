@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-surface: #121413;
+  --color-on-surface: #e2e3e0;
+  --color-on-surface-variant: #bacbbd;
+  --color-primary: #7fffb5;
+  --color-primary-container: #2ce691;
+  --color-on-primary: #00391f;
+  --color-on-primary-fixed: #002110;
+  --color-secondary: #ffb783;
+  --color-on-secondary: #4f2500;
+  --color-surface-container-low: #1a1c1b;
+  --color-surface-container-high: #282a29;
+  --color-surface-container-highest: #333534;
+  --color-surface-bright: #383a38;
+  --color-outline: #859588;
+  --color-outline-variant: #3c4a3f;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body antialiased;
+  }
+}
+
+@layer utilities {
+  .editorial-text-shadow {
+    text-shadow: 0 0 40px rgba(127, 255, 181, 0.15);
+  }
+  
+  .glass-panel {
+    @apply bg-surface-container-high/40 backdrop-blur-xl;
+  }
+
+  .kinetic-gradient {
+    background: linear-gradient(45deg, #7fffb5 0%, #2ce691 100%);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .grainy-overlay {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    pointer-events: none;
+  }
+}
