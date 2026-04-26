@@ -1,5 +1,7 @@
 # Modern Height Methods (MHM) Core Platform
 
+mhm is work of three months of iteration. this repo, "mhm-core" simply organized my work and put it neatly into a couple readable folders. 
+
 [![React](https://img.shields.io/badge/React-19.0-blue.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF.svg)](https://vitejs.dev/)
 [![Express](https://img.shields.io/badge/Express-4.21-lightgrey.svg)](https://expressjs.com/)
