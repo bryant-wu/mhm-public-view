@@ -56,4 +56,4 @@ mhm-core/
 └── README.md
 ```
 ---
-*Developed by [Your Name] — 2026*
+*Developed by Bryant Wu — 2026*
