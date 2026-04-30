@@ -54,3 +54,6 @@ mhm-core/
 │   └── package.json
 │
 └── README.md
+```
+---
+*Developed by [Your Name] — 2026*
