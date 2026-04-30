@@ -1,7 +1,7 @@
 # Modern Height Methods (MHM) Core Platform
 
 ## IMPORTANT FOR RESUME READERS!!!
-Modern Height Methods (MHM) is the result of three months of iteration (66 commits). This repo, "mhm-core" simply organized my work and put it neatly into a couple readable folders. The preview is at mhm-app-preview.web.app, and the waitlist is found at mhm-waitlist.web.app.
+Modern Height Methods (MHM) is the result of three months of iteration (66 commits). This repo, "mhm-public-view" simply organized my showable work and put it neatly into a couple readable folders. The preview is at mhm-app-preview.web.app, and the waitlist is found at mhm-waitlist.web.app.
 
 [![React](https://img.shields.io/badge/React-19.0-blue.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF.svg)](https://vitejs.dev/)
