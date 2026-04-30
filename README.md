@@ -1,6 +1,6 @@
 # Modern Height Methods (MHM) Core Platform
 
-IMPORTANT FOR RESUME READERS!!!
+## IMPORTANT FOR RESUME READERS!!!
 mhm is work of three months of iteration (66 commits). this repo, "mhm-core" simply organized my work and put it neatly into a couple readable folders. 
 
 [![React](https://img.shields.io/badge/React-19.0-blue.svg)](https://reactjs.org/)
