@@ -1,4 +1,4 @@
-# Modern Height Methods (MHM) Core Platform
+# Modern Height Methods (MHM) Public View
 
 ## IMPORTANT FOR RESUME READERS!!!
 Modern Height Methods (MHM) is the result of three months of iteration (66 commits). This repo, "mhm-public-view" simply organized my showable work and put it neatly into a couple readable folders. The preview is at mhm-app-preview.web.app, and the waitlist is found at mhm-waitlist.web.app.
